@@ -1,4 +1,4 @@
-def add (a, b, c ):
+def divide (a, b, c ):
     return a + b + c
 
-print (add(1,2, 3))
+print (divide(1,2, 3))
