@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f64244b-c30f-49d9-bf7f-443efac3f847" name="Changes" comment="" />
+    <list default="true" id="4f64244b-c30f-49d9-bf7f-443efac3f847" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Function/Dictionaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/ForLoop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/ForWhileLoops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/Grade-IfElifElse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/IfElifElse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/My_list1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2wgXXv56BmCshos03o7nvLF9Vcz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -33,12 +41,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Dictionaries.executor": "Run",
+    "Python.ForLoop.executor": "Run",
+    "Python.ForWhileLoops.executor": "Run",
+    "Python.Grade-IfElifElse.executor": "Run",
+    "Python.IfElifElse.executor": "Run",
+    "Python.My_list1.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/L/PycharmProjects/gitdocs/Function"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\L\PycharmProjects\gitdocs\Function" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
