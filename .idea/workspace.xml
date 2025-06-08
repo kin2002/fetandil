@@ -5,13 +5,107 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f64244b-c30f-49d9-bf7f-443efac3f847" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Function/Dictionaries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function/ForLoop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function/ForWhileLoops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function/Grade-IfElifElse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function/IfElifElse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function/My_list1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarAbstraction/All.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarAbstraction/Boat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarAbstraction/Car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarAbstraction/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarAbstraction/Motorcycle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarAbstraction/Vehicle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarAbstraction/Vehicle1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarAbstraction/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyTaskInheritance/7tuMorn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyTaskInheritance/Day.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyTaskInheritance/Friday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyTaskInheritance/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyTaskInheritance/Monday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyTaskInheritance/Saturday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyTaskInheritance/Sunday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyTaskInheritance/Thursday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyTaskInheritance/Tuesday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyTaskInheritance/Wednesday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyTaskInheritance/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ErmGigs/Erm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ErmGigs/Kin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ErmGigs/Leader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ErmGigs/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ErmGigs/Tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ErmGigs/Worker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ErmGigs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/CustomersDictionaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/ForWhileLoop2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/ቃል1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function/ክፉ፟_ቃል1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imports/Grade-IfElifElse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imports/HomeWorkA1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imports/ThinkSpeakAction1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imports/abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imports/grade_average_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imports/standard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetKin/Day.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetKin/Friend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetKin/Kin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetKin/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetKin/Met.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetKin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetKinActions/Friends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetKinActions/Kin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetKinActions/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetKinActions/Met.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetKinActions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShapeAreaPolymorphism/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShapeAreaPolymorphism/Main0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShapeAreaPolymorphism/Main2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShapeAreaPolymorphism/Shape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShapeAreaPolymorphism/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/Day.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/Day1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/Main2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/Monday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/Sunday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/Sunday1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/days.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/days1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/days2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/main0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/main1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/mainx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/nights.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/weekly_task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week/ግጻዌ1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskCompo1/Day.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskCompo1/Friday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskCompo1/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskCompo1/Monday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskCompo1/Saturday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskCompo1/Sunday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskCompo1/Thursday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskCompo1/Tuesday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskCompo1/Wednesday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskCompo1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskInheritance1/Day.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskInheritance1/Friday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskInheritance1/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskInheritance1/Monday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskInheritance1/Saturday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskInheritance1/Sunday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskInheritance1/Thursday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskInheritance1/Tuesday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskInheritance1/Wednesday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskInheritance1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskPolymorphism1/Day.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskPolymorphism1/Friday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskPolymorphism1/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskPolymorphism1/Monday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskPolymorphism1/Saturday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskPolymorphism1/Sunday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskPolymorphism1/Thursday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskPolymorphism1/Tuesday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskPolymorphism1/Wednesday.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeeklyTaskPolymorphism1/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Function/Dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/Function/Dictionaries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Function/ForLoop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Function/ForWhileLoop.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +135,49 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.7tuMorn.executor": "Run",
+    "Python.All.executor": "Run",
+    "Python.CustomersDictionaries.executor": "Run",
     "Python.Dictionaries.executor": "Run",
+    "Python.Erm.executor": "Run",
     "Python.ForLoop.executor": "Run",
+    "Python.ForWhileLoop.executor": "Run",
+    "Python.ForWhileLoop2.executor": "Run",
     "Python.ForWhileLoops.executor": "Run",
     "Python.Grade-IfElifElse.executor": "Run",
+    "Python.HomeWorkA1.executor": "Run",
     "Python.IfElifElse.executor": "Run",
+    "Python.Main.executor": "Run",
+    "Python.Main2.executor": "Run",
+    "Python.Morning.executor": "Run",
     "Python.My_list1.executor": "Run",
+    "Python.Sunday.executor": "Run",
+    "Python.ThinkSpeakAction1.executor": "Run",
+    "Python.abc.executor": "Run",
+    "Python.days.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.main1.executor": "Run",
+    "Python.standard.executor": "Run",
+    "Python.weekly_task1.executor": "Run",
+    "Python.ክፉ፟_ቃል1.executor": "Run",
+    "Python.ግጻዌ1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/L/PycharmProjects/gitdocs/Function"
+    "last_opened_file_path": "C:/Users/L/PycharmProjects/gitdocs/CarAbstraction"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\L\PycharmProjects\gitdocs\CarAbstraction" />
+      <recent name="C:\Users\L\PycharmProjects\gitdocs\ShapeAreaPolymorphism" />
+      <recent name="C:\Users\L\PycharmProjects\gitdocs\ShapeArea" />
+      <recent name="C:\Users\L\PycharmProjects\gitdocs\DailyTaskInheritance" />
+      <recent name="C:\Users\L\PycharmProjects\gitdocs\MetKin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\L\PycharmProjects\gitdocs\Function" />
+      <recent name="C:\Users\L\PycharmProjects\gitdocs\Imports" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -76,5 +197,16 @@
       <updated>1746464233254</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ErmGigs/Main.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
