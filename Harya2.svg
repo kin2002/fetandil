@@ -1,0 +1,74 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504pt" height="189pt" viewBox="0.00 0.00 504.03 189">
+<g id="graph0" class="graph" transform="translate(4,185) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-185 500.03,-185 500.03,4 -4,4"/>
+<g id="clust1" class="cluster" data-name="cluster_0">
+
+<polygon fill="green" stroke="green" points="132.69,-8 132.69,-129 228.69,-129 228.69,-8 132.69,-8"/>
+<text text-anchor="middle" x="180.69" y="-112.4" font-family="Times,serif" font-size="14.00">Email Agent</text>
+</g>
+<g id="clust2" class="cluster" data-name="cluster_1">
+
+<polygon fill="yellow" stroke="yellow" points="236.69,-14 236.69,-173 488.03,-173 488.03,-14 236.69,-14"/>
+<text text-anchor="middle" x="362.36" y="-156.4" font-family="Times,serif" font-size="14.00">Web Application</text>
+</g>
+<g id="clust3" class="cluster" data-name="cluster_2">
+
+<polygon fill="lightblue" stroke="lightblue" points="244.69,-22 244.69,-140 378.48,-140 378.48,-22 244.69,-22"/>
+<text text-anchor="middle" x="311.58" y="-123.4" font-family="Times,serif" font-size="14.00">Python or C#</text>
+</g>
+<g id="clust4" class="cluster" data-name="cluster_3">
+
+<polygon fill="red" stroke="red" points="252.69,-30 252.69,-107 370.48,-107 370.48,-30 252.69,-30"/>
+<text text-anchor="middle" x="311.58" y="-90.4" font-family="Times,serif" font-size="14.00">HTML, CSS &amp; JS</text>
+</g>
+<!-- HARAYA -->
+<g id="node1" class="node" pointer-events="visible" data-name="HARAYA">
+
+<ellipse fill="lightgrey" stroke="black" cx="52.35" cy="-56" rx="52.2" ry="18"/>
+<text text-anchor="middle" x="52.35" y="-51.8" font-family="Times,serif" font-size="14.00">HARAYA</text>
+</g>
+<!-- mobileapp -->
+<g id="node2" class="node" pointer-events="visible" data-name="mobileapp">
+
+<ellipse fill="lightgrey" stroke="black" cx="180.69" cy="-56" rx="39.99" ry="39.99"/>
+<polyline fill="none" stroke="black" points="207.14,-86 154.24,-86"/>
+<polyline fill="none" stroke="black" points="207.14,-26 154.24,-26"/>
+<text text-anchor="middle" x="180.69" y="-51.8" font-family="Times,serif" font-size="14.00">mobileapp</text>
+</g>
+<!-- HARAYA&#45;&gt;mobileapp -->
+<g id="edge1" class="edge" data-name="HARAYA-&gt;mobileapp">
+
+<path fill="none" stroke="black" d="M104.74,-56C112.72,-56 120.97,-56 128.94,-56"/>
+<polygon fill="black" stroke="black" points="128.85,-59.5 138.85,-56 128.85,-52.5 128.85,-59.5"/>
+</g>
+<!-- API -->
+<g id="node3" class="node" pointer-events="visible" data-name="FASTAPI" data-comment="API">
+
+<polygon fill="lightgrey" stroke="black" points="347.38,-74 274.79,-74 274.79,-70 270.79,-70 270.79,-66 274.79,-66 274.79,-46 270.79,-46 270.79,-42 274.79,-42 274.79,-38 347.38,-38 347.38,-74"/>
+<polyline fill="none" stroke="black" points="274.79,-70 278.79,-70 278.79,-66 274.79,-66"/>
+<polyline fill="none" stroke="black" points="274.79,-46 278.79,-46 278.79,-42 274.79,-42"/>
+<text text-anchor="middle" x="311.08" y="-51.8" font-family="Times,serif" font-size="14.00">FASTAPI</text>
+</g>
+<!-- mobileapp&#45;&gt;API -->
+<g id="edge2" class="edge" data-name="mobileapp-&gt;FASTAPI" data-comment="mobileapp-&gt;API">
+
+<path fill="none" stroke="black" d="M220.91,-56C234.28,-56 249.35,-56 263.26,-56"/>
+<polygon fill="black" stroke="black" points="263.08,-59.5 273.08,-56 263.08,-52.5 263.08,-59.5"/>
+</g>
+<!-- postgresql -->
+<g id="node4" class="node" pointer-events="visible" data-name="postgresql">
+
+<path fill="lightgrey" stroke="black" d="M479.81,-70.73C479.81,-72.53 463.42,-74 443.26,-74 423.09,-74 406.7,-72.53 406.7,-70.73 406.7,-70.73 406.7,-41.27 406.7,-41.27 406.7,-39.47 423.09,-38 443.26,-38 463.42,-38 479.81,-39.47 479.81,-41.27 479.81,-41.27 479.81,-70.73 479.81,-70.73"/>
+<path fill="none" stroke="black" d="M479.81,-70.73C479.81,-68.92 463.42,-67.45 443.26,-67.45 423.09,-67.45 406.7,-68.92 406.7,-70.73"/>
+<text text-anchor="middle" x="443.26" y="-51.8" font-family="Times,serif" font-size="14.00">postgresql</text>
+</g>
+<!-- API&#45;&gt;postgresql -->
+<g id="edge3" class="edge" data-name="FASTAPI-&gt;postgresql" data-comment="API-&gt;postgresql">
+
+<path fill="none" stroke="black" d="M347.65,-56C362.31,-56 379.51,-56 395.18,-56"/>
+<polygon fill="black" stroke="black" points="394.76,-59.5 404.76,-56 394.76,-52.5 394.76,-59.5"/>
+</g>
+</g>
+</svg>
