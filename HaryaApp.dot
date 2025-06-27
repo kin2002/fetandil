@@ -1,0 +1,38 @@
+digraph  G {
+
+    graph[rankdir=LR, style=filled]
+    node [style=filled, shape=rectangle]
+    HARAYA [shape=oval]
+    mobileapp [shape=Mcircle width=1]
+    FASTAPI[shape=component]
+    postgresql [shape=cylinder]
+    
+    //interactions
+    HARAYA -> mobileapp
+    mobileapp-> FASTAPI
+    FASTAPI-> postgresql
+
+    //enviroments
+    subgraph cluster_0 {
+        label="Email Agent"
+        color=green
+        mobileapp
+    }
+    subgraph cluster_1 {
+        //properties
+        label="Web Application";
+        color=yellow
+        subgraph cluster_2 {
+            label="Python or C#"
+            color=lightblue
+
+            subgraph cluster_3 {
+                label="HTML, CSS & JS"
+                color=red
+                
+                FASTAPI;
+            }
+        }
+    postgresql
+    }
+}   
