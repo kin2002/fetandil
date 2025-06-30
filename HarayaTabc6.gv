@@ -1,0 +1,90 @@
+digraph G {
+
+    graph[rankdir=LR, style=filled]
+   
+    App[shape= Mcircle][color=lightskyblue];
+    
+    Part_I[shape= Mdiamond][color=lightgreen];
+    Part_II[shape= Mdiamond][color=lightgreen];
+    Part_III[shape= Mdiamond][color=lightgreen];
+    Part_IV[shape= Mdiamond][color=lightgreen];
+
+    
+    
+    App->Part_I
+    App->Part_II
+    App->Part_III
+    App->Part_IV
+
+     Part_I->Booking_Loads
+     Part_I->Calendar_Management
+     Part_I->Load_Tracking
+     Part_I->Dispatching_Drivers
+     Part_I->Payroll_Settlement
+     Part_I->Conclusion
+
+     Part_II->Overview_of_Traffic_Dept
+     Part_II->Sending_Driver_Info_to_Brokers
+     Part_II->Dispatch_Confirmation
+     Part_II->ETA_Shipper
+     Part_II->Driver_Activity
+     Part_II->BOL_Before_Departure
+
+
+     Part_III->9
+     Part_III->10
+     Part_III->11
+     Part_III->12
+
+     Part_IV->13
+     Part_IV->14
+     Part_IV->15
+     Part_IV->16
+    
+    subgraph cluster_0 {
+		style=filled;
+		color=lightgrey;
+		fillcolor="darkgray:gold";
+		gradientangle=0
+		node [color=lightgreen];
+		
+		Booking_Loads->Calendar_Management->Load_Tracking->Dispatching_Drivers->Payroll_Settlement->Conclusion
+		label = "Core Logistics Operations #1";
+
+	}
+    subgraph cluster_1{
+        style=filled;
+		color=lightgrey;
+		fillcolor="darkgray:gold";
+		gradientangle=0
+		node [fillcolor="yellow:green" style=filled gradientangle=270];
+		
+        Overview_of_Traffic_Dept->Sending_Driver_Info_to_Brokers->Dispatch_Confirmation->ETA_Shipper->Driver_Activity->BOL_Before_Departure
+        label = "Traffic Department Operations Manual #2";
+
+    }
+    subgraph cluster_2{
+        style=filled;
+		color=lightgrey;
+		fillcolor="darkgray:gold";
+		gradientangle=0
+		node [fillcolor="yellow:green" style=filled gradientangle=270];
+		
+
+		9 -> 10 -> 11 -> 12;
+		label = "Financial Management & Factoring  #3";
+    }
+
+    subgraph cluster_3{
+        style=filled;
+		color=lightgrey;
+		fillcolor="darkgray:gold";
+		gradientangle=0
+		node [fillcolor="yellow:green" style=filled gradientangle=270];
+	
+
+		13 -> 14 -> 15 -> 16;
+		label = "Invoice Submission and Payment  #4";
+    }
+
+}
