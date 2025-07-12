@@ -1,0 +1,91 @@
+digraph SoftwareDevelopmentFramework {
+    rankdir=LR;
+    node [shape=box, style=rounded, color=blue, fontname=Arial];
+
+    Planning [label="1. Planning", style=filled, fillcolor=lightgreen, color=green];
+    Design [label="2. Design", style=filled, fillcolor=lightgreen, color=green];
+    Implementation [label="3. Implementation", style=filled, fillcolor=lightgreen, color=green];
+    Testing [label="4. Testing", style=filled, fillcolor=lightgreen, color=green];
+    Deployment [label="5. Deployment", style=filled, fillcolor=lightgreen, color=green];
+    Maintenance [label="6. Maintenance", style=filled, fillcolor=lightgreen, color=green];
+
+    subgraph cluster_planning {
+        label="Planning";
+        color=lightgrey;
+        Requirements [label="Gather Requirements"];
+        Feasibility [label="Feasibility Study"];
+        Timeline [label="Define Timeline"];
+    }
+
+    subgraph cluster_design {
+        label="Design";
+        color=lightgrey;
+        Architecture [label="System Architecture"];
+        UIUX [label="UI/UX Design"];
+        DatabaseDesign [label="Database Design"];
+    }
+
+    subgraph cluster_implementation {
+        label="Implementation";
+        color=lightgrey;
+        Frontend [label="Frontend Development"];
+        Backend [label="Backend Development"];
+        Integration [label="API Integration"];
+    }
+
+    subgraph cluster_testing {
+        label="Testing";
+        color=lightgrey;
+        UnitTests [label="Unit Testing"];
+        IntegrationTests [label="Integration Testing"];
+        UserTesting [label="User Acceptance Testing"];
+    }
+
+    subgraph cluster_deployment {
+        label="Deployment";
+        color=lightgrey;
+        DeploymentPrep [label="Prepare Release"];
+        ProductionDeploy [label="Deploy to Production"];
+        MonitoringSetup [label="Setup Monitoring"];
+    }
+
+    subgraph cluster_maintenance {
+        label="Maintenance";
+        color=lightgrey;
+        BugFixes [label="Bug Fixes"];
+        Updates [label="Feature Updates"];
+        Support [label="User Support"];
+    }
+
+    // Main flow
+    Planning -> Design [color=green];
+    Design -> Implementation [color=green];
+    Implementation -> Testing [color=green];
+    Testing -> Deployment [color=green];
+    Deployment -> Maintenance [color=green];
+
+    // Details connections
+    Planning -> Requirements;
+    Planning -> Feasibility;
+    Planning -> Timeline;
+
+    Design -> Architecture;
+    Design -> UIUX;
+    Design -> DatabaseDesign;
+
+    Implementation -> Frontend;
+    Implementation -> Backend;
+    Implementation -> Integration;
+
+    Testing -> UnitTests;
+    Testing -> IntegrationTests;
+    Testing -> UserTesting;
+
+    Deployment -> DeploymentPrep;
+    Deployment -> ProductionDeploy;
+    Deployment -> MonitoringSetup;
+
+    Maintenance -> BugFixes;
+    Maintenance -> Updates;
+    Maintenance -> Support;
+}
