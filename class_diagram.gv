@@ -1,0 +1,47 @@
+digraph ClassDiagram {
+  rankdir=LR;
+  fontname="Arial";
+  node [shape=record, fontname="Arial"];
+  edge [fontname="Arial"];
+
+  Load [label="{Load|+ LoadId: GUID\l+ Status: LoadStatus\l+ PickupAt: DateTime\l+ DeliveryAt: DateTime\l+ Rate: decimal\l|+ Plan()\l+ AssignDriver()\l}"];
+  RateConfirmation [label="{RateConfirmation|+ RateConId: GUID\l+ BrokerRef: string\l+ FilePath: string\l|}"];
+  CalendarEntry [label="{CalendarEntry|+ EntryId: GUID\l+ Start: DateTime\l+ End: DateTime\l+ BrokerColor: string\l+ Status: string\l|}"];
+  Trip [label="{Trip|+ TripId: GUID\l+ CreatedAt: DateTime\l+ Notes: string\l|}"];
+  Dispatch [label="{Dispatch|+ DispatchId: GUID\l+ SentAt: DateTime\l+ ConfirmedAt: DateTime?\l|+ Send()\l+ Confirm()\l}"];
+  Driver [label="{Driver|+ DriverId: GUID\l+ FullName: string\l+ Phone: string\l+ Status: string\l|}"];
+  Vehicle [label="{Vehicle|+ VehicleId: GUID\l+ UnitNumber: string\l+ Type: string\l|}"];
+  Broker [label="{Broker|+ BrokerId: GUID\l+ Name: string\l+ McNumber: string\l+ CreditStatus: CreditRating\l|}"];
+  Document [label="{Document|+ DocumentId: GUID\l+ Type: DocType\l+ FilePath: string\l+ UploadedAt: DateTime\l|}"];
+  BOL [label="{BOL|+ BOLNumber: string\l|}"];
+  POD [label="{POD|+ ReceivedAt: DateTime\l|}"];
+  Invoice [label="{Invoice|+ InvoiceId: GUID\l+ Number: string\l+ Amount: decimal\l+ Terms: string\l+ Status: InvoiceStatus\l|+ Generate()\l}"];
+  FactoringSubmission [label="{FactoringSubmission|+ SubmissionId: GUID\l+ Status: SubmissionStatus\l+ SubmittedAt: DateTime\l|+ Submit()\l+ Resubmit()\l}"];
+  Payment [label="{Payment|+ PaymentId: GUID\l+ Amount: decimal\l+ PaidAt: DateTime\l+ ScheduleNo: string\l|}"];
+  Chargeback [label="{Chargeback|+ ChargebackId: GUID\l+ Reason: string\l+ Amount: decimal\l+ ResolvedAt: DateTime?\l|}"];
+  Expense [label="{Expense|+ ExpenseId: GUID\l+ Category: ExpenseType\l+ Amount: decimal\l+ IncurredAt: DateTime\l|}"];
+  Settlement [label="{Settlement|+ SettlementId: GUID\l+ PeriodStart: DateTime\l+ PeriodEnd: DateTime\l+ DriverShare: decimal\l+ CompanyShare: decimal\l|+ Calculate()\l}"];
+  User [label="{User|+ UserId: GUID\l+ Name: string\l+ Email: string\l|}"];
+  Role [label="{Role|+ RoleId: GUID\l+ Name: string\l|}"];
+
+  // Inheritance
+  BOL -> Document [arrowhead=onormal];
+  POD -> Document [arrowhead=onormal];
+
+  // Associations
+  Load -> Broker [label="broker 1"];
+  Load -> RateConfirmation [label="has 1"];
+  Load -> CalendarEntry [label="scheduled by 1"];
+  Load -> Trip [label="creates 1"];
+  Trip -> Dispatch [label="1..*"];
+  Dispatch -> Driver [label="to 1"];
+  Driver -> Vehicle [label="uses 0..1"];
+  Document -> Load [label="for 1"];
+  Invoice -> Load [label="for 1"];
+  FactoringSubmission -> Invoice [label="includes 1..*"];
+  Payment -> FactoringSubmission [label="for 1"];
+  Chargeback -> FactoringSubmission [label="against 0..*"];
+  Expense -> Settlement [label="included in *"];
+  Settlement -> Driver [label="for 1"];
+  User -> Role [label="has 1..*"];
+}

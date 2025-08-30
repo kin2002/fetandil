@@ -1,0 +1,56 @@
+digraph UseCase {
+  rankdir=LR;
+  fontname="Arial";
+  node [fontname="Arial"];
+  edge [fontname="Arial"];
+
+  // Actors
+  Dispatcher [shape=ellipse, label="Dispatcher"];
+  Driver [shape=ellipse, label="Driver"];
+  Broker [shape=ellipse, label="Broker"];
+  Finance [shape=ellipse, label="Finance"];
+  Admin [shape=ellipse, label="Admin"];
+  Management [shape=ellipse, label="Management"];
+
+  // System boundary
+  subgraph cluster_system {
+    label="Transportation Management System";
+    style=dashed;
+    fontsize=16;
+
+    BookLoad [shape=oval, label="Book Load"];
+    DispatchDriver [shape=oval, label="Dispatch Driver"];
+    TrackLoad [shape=oval, label="Track Load / Driver Status"];
+    SendBrokerUpdates [shape=oval, label="Send Broker Updates"];
+    UploadDocs [shape=oval, label="Upload BOL / POD"];
+    PayrollSettlement [shape=oval, label="Payroll Settlement"];
+    GenerateReports [shape=oval, label="Generate Reports & Analytics"];
+    InvoiceSubmission [shape=oval, label="Invoice Submission"];
+    FactoringCheck [shape=oval, label="Broker Credit / Factoring Check"];
+    FinancialReconciliation [shape=oval, label="Financial Reconciliation"];
+  }
+
+  // Relationships
+  Dispatcher -> BookLoad;
+  Dispatcher -> DispatchDriver;
+  Dispatcher -> TrackLoad;
+  Dispatcher -> SendBrokerUpdates;
+
+  Driver -> UploadDocs;
+  Driver -> TrackLoad;
+
+  Broker -> SendBrokerUpdates;
+
+  Finance -> PayrollSettlement;
+  Finance -> InvoiceSubmission;
+  Finance -> FactoringCheck;
+  Finance -> FinancialReconciliation;
+
+  Management -> GenerateReports;
+
+  Admin -> BookLoad;
+  Admin -> DispatchDriver;
+  Admin -> PayrollSettlement;
+  Admin -> InvoiceSubmission;
+  Admin -> GenerateReports;
+}

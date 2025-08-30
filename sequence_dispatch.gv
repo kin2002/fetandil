@@ -1,0 +1,22 @@
+digraph Sequence_Dispatch {
+  rankdir=LR;
+  fontname="Arial";
+  node [shape=box, fontname="Arial"];
+  edge [fontname="Arial", arrowsize=0.7];
+
+  Dispatcher [label="Dispatcher"];
+  TMS [label="System (TMS)"];
+  Driver [label="Driver"];
+  Broker [label="Broker"];
+
+  Dispatcher -> TMS [label="1) Create Load from Rate Con"];
+  TMS -> Broker [label="2) Auto send driver info (pre-pickup)"];
+  Dispatcher -> TMS [label="3) Assign Driver & Vehicle"];
+  TMS -> Driver [label="4) Dispatch details (SMS/Email/WhatsApp)"];
+  Driver -> TMS [label="5) Confirm dispatch"];
+  TMS -> Dispatcher [label="6) Update calendar: Dispatched/Confirmed"];
+  Driver -> TMS [label="7) Status updates (At Shipper / Departed / At Receiver)"];
+  TMS -> Broker [label="8) Send BOL before departure"];
+  Driver -> TMS [label="9) Upload POD at delivery"];
+  TMS -> Broker [label="10) Final delivery confirmation with POD"];
+}

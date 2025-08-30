@@ -1,0 +1,20 @@
+digraph Sequence_Factoring {
+  rankdir=LR;
+  fontname="Arial";
+  node [shape=box, fontname="Arial"];
+  edge [fontname="Arial", arrowsize=0.7];
+
+  Finance [label="Finance"];
+  TMS [label="System (TMS)"];
+  FleetOne [label="Fleet One / WEX Portal"];
+  Bank [label="Bank / Payments"];
+
+  Finance -> TMS [label="1) Generate Invoice + build billing file"];
+  TMS -> FleetOne [label="2) Submit Invoice + POD + Rate Con"];
+  FleetOne -> TMS [label="3) Status: Pending / Approved / Rejected"];
+  TMS -> Finance [label="4) Notify rejection reasons (if any)"];
+  Finance -> TMS [label="5) Correct & Resubmit"];
+  FleetOne -> Bank [label="6) Release payment / schedule"];
+  Bank -> TMS [label="7) Deposit notice"];
+  TMS -> Finance [label="8) Reconcile & update ledger"];
+}
