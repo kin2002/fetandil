@@ -1,0 +1,64 @@
+digraph {
+    Harya_TMS
+Start
+Road    
+End
+
+    Start -> Road
+    Road -> End
+
+    subgraph cluster_0 {Start_Condition
+    Start}
+    Start_Condition->BOL
+    Start_Condition->CAL
+    Start_Condition->CC
+
+    BOL->1
+    BOL->2
+    BOL->3
+
+    CAL->4
+    CAL->5
+    CAL->6
+
+    CC->7
+    CC->8
+    CC->9
+
+
+
+    subgraph cluster_1 {Road_Condition
+    Road}
+    Road_Condition->OTD
+    Road_Condition->DAU
+    Road_Condition->ADR
+
+    OTD->10
+    OTD->11
+    OTD->12
+
+    DAU->13
+    DAU->14
+    DAU->15
+
+    ADR->16
+    ADR->17
+    ADR->18
+
+    subgraph cluster_2 {End_Condition
+    End}
+
+    End_Condition->POD
+    End_Condition->BDC
+    End_Condition->FS
+
+    POD->19
+    POD->20
+    POD->21
+
+    BDC->22
+    BDC->23
+    BDC->24
+
+
+}
